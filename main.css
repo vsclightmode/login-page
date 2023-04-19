@@ -73,31 +73,19 @@ body {
     color: #0056b3;
 }
 
-/* Dark mode butonunun tasarımı ve orta altına hizalama kodları */
 #darkModeBtn {
     background-color: #333;
-    /* Arka plan rengi */
     color: #fff;
-    /* Metin rengi */
     padding: 10px 15px;
-    /* İç içe alan (padding) */
     border: none;
-    /* Kenarlık yok */
     border-radius: 4px;
-    /* Köşelerin yuvarlanma derecesi */
     cursor: pointer;
-    /* Fare imleci türü */
     position: fixed;
-    /* Sabit pozisyon */
     bottom: 20px;
-    /* Alt kenardan 20 piksel yukarıda */
     left: 50%;
-    /* Sol kenardan ortada */
     transform: translateX(-50%);
-    /* X ekseni üzerinde ortalamak için */
 }
 
-/* Dark mode aktif olduğunda uygulanacak stil kodu */
 body.dark-mode {
     background-color: #222;
     color: #fff;
